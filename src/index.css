@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans', 'Avenir Next', system-ui, sans-serif;
+  color: #26362f;
+  background: #f7f8f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --color-bg: #f7f8f5;
+  --color-paper: #ffffff;
+  --color-ink: #26362f;
+  --color-muted: #788078;
+  --color-border: #e6e9e2;
+  --color-green: #29463a;
+  --color-green-dark: #1f352d;
+  --color-lime: #d3e6b8;
+  --color-accent: #a8c58c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+a,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+a {
+  touch-action: manipulation;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #84a978;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #1f352d;
+  background: #dce9ca;
+}
