@@ -95,11 +95,84 @@ const guides = [
     tone: 'peach',
     duration: '20–30 min',
     steps: [
-      { id: 'role', title: 'Define your target role', description: 'Review the job description and note the main requirements.' },
-      { id: 'cv', title: 'Tailor your CV', description: 'Highlight the skills and experience most relevant to the role.' },
-      { id: 'letter', title: 'Prepare supporting materials', description: 'Write a cover letter or prepare any requested work samples.' },
-      { id: 'apply', title: 'Submit your application', description: 'Check the details before using the employer’s official application channel.' },
-      { id: 'track', title: 'Record the outcome', description: 'Save the application date and note any follow-up actions.' },
+      {
+		
+				id: 'role',
+				title: 'Define your target role',
+				description: 'Identify the positions that match your skills, interests and career goals.',
+				details: 'Before applying, define what kind of role you are looking for. Analyse job descriptions and identify the qualifications, technical skills and responsibilities employers expect.',
+				actions: [
+					'Choose your target job title (e.g. Software Engineer, Frontend Developer).',
+					'Identify your preferred industry and company type.',
+					'Review at least two relevant job descriptions.',
+					'List the technical skills and qualifications employers require.',
+					'Compare the requirements with your current skills.',
+					'Identify the skills you need to improve.',
+				],
+			},
+      { 
+				id: 'cv',
+			  title: 'Tailor your CV',
+				description: 'Create a professional CV that highlights your most relevant skills and experience.',
+				details: 'Your CV should demonstrate why you are suitable for the selected position. Adapt your skills, projects, education and experience to the requirements of each job. Use clear formatting and concise descriptions.',
+        actions: [
+          'Add your contact information and professional profile.',
+          'Include your education and relevant academic background.',
+          'Highlight programming languages, frameworks and technical skills.',
+          'Add relevant projects and explain your contributions.',
+          'Include internships, work experience and certifications.',
+          'Use keywords from the job description where accurate.',
+          'Check spelling, grammar and formatting.',
+          'Save your final CV as a PDF.',
+        ],
+			},
+      { 
+				id: 'letter',
+				title: 'Prepare supporting materials', 
+				description: 'Prepare a tailored cover letter and gather any additional documents requested by the employer.',
+				details: 'Supporting materials help employers understand your motivation and suitability. Your cover letter should explain why you are interested in the position and what you can contribute. Include portfolio links and other documents when relevant.',
+        actions: [
+          'Write a cover letter tailored to the company and position.',
+          'Explain why you are interested in the role.',
+          'Highlight two or three relevant skills or achievements.',
+          'Add your GitHub profile if you have relevant projects.',
+          'Prepare your portfolio or personal website if applicable.',
+          'Gather transcripts, certificates or references if requested.',
+          'Check that all documents are readable and up to date.',
+        ],
+			},
+      { 
+				id: 'apply', 
+				title: 'Submit your application', 
+				description: 'Complete the employer’s application form and submit all required documents.',
+				details: 'Use the official company careers page or the application platform specified in the job listing. Carefully review every field before submission and make sure the correct documents are attached.',
+        actions: [
+          'Open the official job application page.',
+          'Read the application instructions carefully.',
+          'Enter your personal and contact information.',
+          'Complete education and experience sections.',
+          'Upload your tailored CV and supporting documents.',
+          'Review all answers and attachments.',
+          'Submit your application.',
+          'Save the confirmation email or application reference.',
+        ],
+			},
+      { 
+				id: 'track',
+			  title: 'Record the outcome',
+			  description: 'Track your application status and organise any follow-up activities.',
+				details: 'Keep a record of every application so you can follow its progress. Record the company, position, application date and current status. Update your records when you receive an interview invitation, rejection or offer.',
+				actions: [
+          'Record the company name and job title.',
+          'Save the original job listing URL.',
+          'Write down the application submission date.',
+          'Set the application status to Submitted.',
+          'Record interview dates and important communication.',
+          'Set a reminder for an appropriate follow-up date.',
+          'Update the status when you receive a response.',
+          'Record useful feedback for future applications.',
+        ],
+			},
     ],
   },
   {
@@ -646,9 +719,25 @@ function GuideDetail({ completed, toggleStep, resetGuide, preferences }) {
                 </div>
                 <p>{preferences.explanation === 'concise' ? step.title : step.description}</p>
                 {preferences.explanation === 'detailed' && (
-                  <p className="step-details">
-                    {step.details || detailedGuidance[step.id] || 'Review this step carefully and confirm any requirements with the relevant official source.'}
-                  </p>
+                  <>
+                    <p className="step-details">
+                      {step.details || detailedGuidance[step.id] || 'Review this step carefully and confirm any requirements with the relevant official source.'}
+                    </p>
+
+                    {step.actions && (
+                      <div className="step-action-guide">
+                        <h4>What you need to do</h4>
+                        <ul>
+                          {step.actions.map((action, index) => (
+                            <li key={index}>
+                              <CheckCircle2 size={15} />
+                              <span>{action}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </>
                 )}
                 {preferences.reminders && missingDependencies.length > 0 && (
                   <div className="dependency-note">

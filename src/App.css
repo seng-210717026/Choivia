@@ -35,7 +35,9 @@
   border-radius: 12px;
   background: var(--color-green);
   color: white;
-  font: 800 23px/1 'Manrope', sans-serif;
+  font:
+    800 23px/1 "Manrope",
+    sans-serif;
   letter-spacing: -2px;
 }
 
@@ -45,7 +47,9 @@
 
 .brand-name {
   color: #26362f;
-  font: 800 23px/1 'Manrope', sans-serif;
+  font:
+    800 23px/1 "Manrope",
+    sans-serif;
   letter-spacing: -1.3px;
 }
 
@@ -79,7 +83,9 @@
   color: #737c74;
   font-size: 13px;
   font-weight: 500;
-  transition: background 160ms ease, color 160ms ease;
+  transition:
+    background 160ms ease,
+    color 160ms ease;
 }
 
 .nav-link:hover {
@@ -152,7 +158,9 @@
   border-radius: 50%;
   color: white;
   background: #6a8063;
-  font: 700 16px 'Manrope', sans-serif;
+  font:
+    700 16px "Manrope",
+    sans-serif;
 }
 
 .sidebar-footer strong,
@@ -240,14 +248,16 @@
 .detail-heading h1 {
   margin: 0;
   color: #273a30;
-  font: 600 clamp(30px, 3vw, 41px)/1.19 'Manrope', sans-serif;
+  font:
+    600 clamp(30px, 3vw, 41px)/1.19 "Manrope",
+    sans-serif;
   letter-spacing: -1.7px;
 }
 
 .page-heading h1 em,
 .detail-heading h1 em {
   color: #79936d;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-weight: 400;
 }
 
@@ -271,7 +281,9 @@
   cursor: pointer;
   font-size: 12px;
   font-weight: 700;
-  transition: transform 150ms ease, background 150ms ease;
+  transition:
+    transform 150ms ease,
+    background 150ms ease;
 }
 
 .button:hover,
@@ -326,13 +338,15 @@
 .hero-copy h2 {
   margin: 17px 0 12px;
   color: #fff;
-  font: 500 clamp(28px, 3vw, 39px)/1.22 'Manrope', sans-serif;
+  font:
+    500 clamp(28px, 3vw, 39px)/1.22 "Manrope",
+    sans-serif;
   letter-spacing: -1.6px;
 }
 
 .hero-copy h2 em {
   color: #c8dcaf;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-weight: 400;
 }
 
@@ -439,7 +453,9 @@
 
 .hero-percent {
   color: #e6efd9;
-  font: 600 29px 'Manrope', sans-serif;
+  font:
+    600 29px "Manrope",
+    sans-serif;
   letter-spacing: -1px;
 }
 
@@ -484,7 +500,9 @@
   right: 25px;
   bottom: 22px;
   color: #d7e5cc;
-  font: 600 11px 'Manrope', sans-serif;
+  font:
+    600 11px "Manrope",
+    sans-serif;
   letter-spacing: 1px;
 }
 
@@ -532,7 +550,9 @@
 
 .overview-item strong {
   color: #2e4034;
-  font: 700 20px 'Manrope', sans-serif;
+  font:
+    700 20px "Manrope",
+    sans-serif;
   letter-spacing: -0.6px;
 }
 
@@ -567,7 +587,9 @@
 .section-heading h2 {
   margin: 0;
   color: #2a3b31;
-  font: 600 23px 'Manrope', sans-serif;
+  font:
+    600 23px "Manrope",
+    sans-serif;
   letter-spacing: -0.9px;
 }
 
@@ -594,7 +616,10 @@
   border: 1px solid #e6e9e2;
   border-radius: 12px;
   background: #fff;
-  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    border-color 160ms ease;
 }
 
 .guide-card:hover {
@@ -641,7 +666,9 @@
 
 .card-arrow {
   color: #9da69a;
-  transition: transform 160ms ease, color 160ms ease;
+  transition:
+    transform 160ms ease,
+    color 160ms ease;
 }
 
 .guide-card:hover .card-arrow {
@@ -660,7 +687,9 @@
 .guide-card h3 {
   margin: 0;
   color: #2d3d32;
-  font: 650 15px/1.45 'Manrope', sans-serif;
+  font:
+    650 15px/1.45 "Manrope",
+    sans-serif;
   letter-spacing: -0.35px;
 }
 
@@ -719,7 +748,9 @@
 
 .footer-mark {
   color: #788574;
-  font: 700 9px 'Manrope', sans-serif;
+  font:
+    700 9px "Manrope",
+    sans-serif;
   letter-spacing: 1.1px;
 }
 
@@ -748,7 +779,9 @@
 
 .big-progress-number {
   color: #294438;
-  font: 600 52px/1.15 'Manrope', sans-serif;
+  font:
+    600 52px/1.15 "Manrope",
+    sans-serif;
   letter-spacing: -2px;
 }
 
@@ -793,7 +826,9 @@
   border-radius: 50%;
   color: #486341;
   background: #fff;
-  font: 700 17px 'Manrope', sans-serif;
+  font:
+    700 17px "Manrope",
+    sans-serif;
 }
 
 .summary-progress-ring svg {
@@ -915,17 +950,23 @@
 
 .detail-progress-top strong {
   color: #344838;
-  font: 700 22px 'Manrope', sans-serif;
+  font:
+    700 22px "Manrope",
+    sans-serif;
 }
 
 .detail-progress-top strong span {
   color: #8a9287;
-  font: 400 11px 'DM Sans', sans-serif;
+  font:
+    400 11px "DM Sans",
+    sans-serif;
 }
 
 .detail-percent {
   color: #668259;
-  font: 700 20px 'Manrope', sans-serif;
+  font:
+    700 20px "Manrope",
+    sans-serif;
 }
 
 .completion-message {
@@ -959,7 +1000,9 @@
 .detail-list-heading h2 {
   margin: 0;
   color: #304035;
-  font: 600 21px 'Manrope', sans-serif;
+  font:
+    600 21px "Manrope",
+    sans-serif;
   letter-spacing: -0.7px;
 }
 
@@ -996,7 +1039,9 @@
   border: 1px solid #e4e8e0;
   border-radius: 11px;
   background: white;
-  transition: border-color 150ms ease, background 150ms ease;
+  transition:
+    border-color 150ms ease,
+    background 150ms ease;
 }
 
 .step-card.step-complete {
@@ -1034,7 +1079,9 @@
   border-radius: 6px;
   color: white;
   background: white;
-  transition: background 150ms ease, border-color 150ms ease;
+  transition:
+    background 150ms ease,
+    border-color 150ms ease;
 }
 
 .step-checkbox-wrap input:checked + .custom-checkbox {
@@ -1050,7 +1097,9 @@
 .step-number {
   padding-top: 2px;
   color: #a3aa9e;
-  font: 600 10px 'Manrope', sans-serif;
+  font:
+    600 10px "Manrope",
+    sans-serif;
 }
 
 .step-title-line {
@@ -1172,7 +1221,9 @@
 .preference-heading h2 {
   margin: 0;
   color: #304035;
-  font: 600 17px 'Manrope', sans-serif;
+  font:
+    600 17px "Manrope",
+    sans-serif;
 }
 
 .preference-heading p {
@@ -1262,7 +1313,9 @@
 .empty-state h2 {
   margin: 0 0 20px;
   color: #304035;
-  font: 600 22px 'Manrope', sans-serif;
+  font:
+    600 22px "Manrope",
+    sans-serif;
 }
 
 @media (min-width: 1500px) {
@@ -1874,14 +1927,16 @@
 .quiz-result-hero h1 {
   margin: 0;
   color: #2c3e32;
-  font: 600 clamp(29px, 4vw, 39px)/1.2 'Manrope', sans-serif;
+  font:
+    600 clamp(29px, 4vw, 39px)/1.2 "Manrope",
+    sans-serif;
   letter-spacing: -1.5px;
 }
 
 .quiz-intro h1 em,
 .quiz-result-hero h1 em {
   color: #79936d;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-weight: 400;
 }
 
@@ -1933,7 +1988,9 @@
 .quiz-question h2 {
   margin: 0;
   color: #304034;
-  font: 600 22px/1.4 'Manrope', sans-serif;
+  font:
+    600 22px/1.4 "Manrope",
+    sans-serif;
   letter-spacing: -0.6px;
 }
 
@@ -1962,7 +2019,9 @@
   background: white;
   text-align: left;
   cursor: pointer;
-  transition: background 150ms ease, border-color 150ms ease;
+  transition:
+    background 150ms ease,
+    border-color 150ms ease;
 }
 
 .quiz-option:hover {
@@ -2053,7 +2112,9 @@
   font-size: 11px;
   font-weight: 700;
   cursor: pointer;
-  transition: background 150ms ease, transform 150ms ease;
+  transition:
+    background 150ms ease,
+    transform 150ms ease;
 }
 
 .quiz-continue:hover {
@@ -2113,7 +2174,9 @@
 .quiz-promo-copy h2 {
   margin: 6px 0;
   color: #354735;
-  font: 600 19px 'Manrope', sans-serif;
+  font:
+    600 19px "Manrope",
+    sans-serif;
   letter-spacing: -0.5px;
 }
 
@@ -2170,7 +2233,9 @@
 .result-setting-copy h2 {
   margin: 0;
   color: #324334;
-  font: 600 16px 'Manrope', sans-serif;
+  font:
+    600 16px "Manrope",
+    sans-serif;
 }
 
 .result-setting-copy > p:not(.eyebrow) {
@@ -2289,13 +2354,15 @@
 .study-heading h1 {
   margin: 0;
   color: #293c30;
-  font: 600 clamp(28px, 3vw, 38px)/1.22 'Manrope', sans-serif;
+  font:
+    600 clamp(28px, 3vw, 38px)/1.22 "Manrope",
+    sans-serif;
   letter-spacing: -1.3px;
 }
 
 .study-heading h1 em {
   color: #79936d;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-weight: 400;
 }
 
@@ -2362,7 +2429,9 @@
   border-radius: 7px;
   color: #394b3b;
   background: #fbfcf9;
-  font: 400 11px 'DM Sans', sans-serif;
+  font:
+    400 11px "DM Sans",
+    sans-serif;
 }
 
 .study-input:focus {
@@ -2404,7 +2473,9 @@
 .study-section-heading h2 {
   margin: 0;
   color: #304034;
-  font: 600 22px 'Manrope', sans-serif;
+  font:
+    600 22px "Manrope",
+    sans-serif;
   letter-spacing: -0.7px;
 }
 
@@ -2459,7 +2530,9 @@
 .study-condition h3 {
   margin: 0;
   color: #304034;
-  font: 600 19px 'Manrope', sans-serif;
+  font:
+    600 19px "Manrope",
+    sans-serif;
   letter-spacing: -0.5px;
 }
 
@@ -2560,7 +2633,9 @@
 .study-timer strong {
   display: block;
   color: #354b38;
-  font: 600 24px 'Manrope', sans-serif;
+  font:
+    600 24px "Manrope",
+    sans-serif;
   font-variant-numeric: tabular-nums;
 }
 
@@ -2775,13 +2850,15 @@
 .job-comparison-heading h1 {
   margin: 0;
   color: #2b3e31;
-  font: 600 clamp(31px, 4vw, 43px)/1.17 'Manrope', sans-serif;
+  font:
+    600 clamp(31px, 4vw, 43px)/1.17 "Manrope",
+    sans-serif;
   letter-spacing: -1.5px;
 }
 
 .job-comparison-heading h1 em {
   color: #79936d;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-weight: 400;
 }
 
@@ -2870,7 +2947,9 @@
 .job-option-heading h2 {
   margin: 0;
   color: #304034;
-  font: 600 16px 'Manrope', sans-serif;
+  font:
+    600 16px "Manrope",
+    sans-serif;
 }
 
 .job-option-fields {
@@ -2903,7 +2982,9 @@
   border-radius: 7px;
   color: #394b3b;
   background: #fbfcf9;
-  font: 400 11px 'DM Sans', sans-serif;
+  font:
+    400 11px "DM Sans",
+    sans-serif;
 }
 
 .job-field-input::placeholder {
@@ -2940,7 +3021,9 @@
 .job-section-heading h2 {
   margin: 0;
   color: #304034;
-  font: 600 22px 'Manrope', sans-serif;
+  font:
+    600 22px "Manrope",
+    sans-serif;
   letter-spacing: -0.7px;
 }
 
@@ -2982,7 +3065,9 @@
 .job-criterion-copy h3 {
   margin: 0;
   color: #354438;
-  font: 600 12px 'Manrope', sans-serif;
+  font:
+    600 12px "Manrope",
+    sans-serif;
 }
 
 .job-criterion-copy > p {
@@ -3047,7 +3132,9 @@
 .job-results-pending h3 {
   margin: 1px 0 7px;
   color: #344638;
-  font: 600 15px 'Manrope', sans-serif;
+  font:
+    600 15px "Manrope",
+    sans-serif;
 }
 
 .job-results-pending p {
@@ -3082,7 +3169,9 @@
   overflow-wrap: anywhere;
   margin: 12px 0 4px;
   color: #304034;
-  font: 600 17px 'Manrope', sans-serif;
+  font:
+    600 17px "Manrope",
+    sans-serif;
 }
 
 .job-score-card > p {
@@ -3095,13 +3184,17 @@
 .job-score-number {
   margin-top: 21px;
   color: #344b37;
-  font: 600 35px/1.2 'Manrope', sans-serif;
+  font:
+    600 35px/1.2 "Manrope",
+    sans-serif;
   letter-spacing: -1.2px;
 }
 
 .job-score-number span {
   color: #8a9385;
-  font: 400 12px 'DM Sans', sans-serif;
+  font:
+    400 12px "DM Sans",
+    sans-serif;
   letter-spacing: 0;
 }
 
@@ -3167,7 +3260,9 @@
 .job-differences > h3 {
   margin: 0 0 8px;
   color: #354438;
-  font: 600 15px 'Manrope', sans-serif;
+  font:
+    600 15px "Manrope",
+    sans-serif;
 }
 
 .job-difference-row {
@@ -3288,7 +3383,9 @@
 .job-comparison-promo-copy h2 {
   margin: 0;
   color: #344638;
-  font: 600 16px 'Manrope', sans-serif;
+  font:
+    600 16px "Manrope",
+    sans-serif;
 }
 
 .job-comparison-promo-copy p:last-child {
@@ -3317,7 +3414,9 @@
 .job-next-step h2 {
   margin: 0;
   color: #354638;
-  font: 600 17px 'Manrope', sans-serif;
+  font:
+    600 17px "Manrope",
+    sans-serif;
 }
 
 .job-next-step p:last-child {
@@ -3385,5 +3484,51 @@
 
   .job-rating-inputs {
     gap: 8px;
+  }
+  /* Job application action guide */
+
+  .step-action-guide {
+    margin-top: 14px;
+    padding: 18px 20px;
+    background: #f8faf6;
+    border: 1px solid #e5ebdf;
+    border-radius: 10px;
+  }
+
+  .step-action-guide h4 {
+    margin: 0 0 13px;
+    color: #34483c;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .step-action-guide ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .step-action-guide li {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    color: #68776b;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .step-action-guide li svg {
+    flex-shrink: 0;
+    margin-top: 2px;
+    color: #829b79;
+  }
+
+  @media (max-width: 700px) {
+    .step-action-guide ul {
+      grid-template-columns: 1fr;
+    }
   }
 }
