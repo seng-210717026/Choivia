@@ -718,7 +718,7 @@ function GuideDetail({ completed, toggleStep, resetGuide, preferences }) {
                   </span>
                 </div>
                 <p>{preferences.explanation === 'concise' ? step.title : step.description}</p>
-                {preferences.explanation === 'detailed' && (
+                {(guide.id === 'jobs' || preferences.explanation === 'detailed') && (
                   <>
                     <p className="step-details">
                       {step.details || detailedGuidance[step.id] || 'Review this step carefully and confirm any requirements with the relevant official source.'}
